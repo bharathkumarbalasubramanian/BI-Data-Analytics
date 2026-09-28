@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { LineChart, FileDown, Send, Menu } from 'lucide-react';
+import resumePdf from '../../assets/Bharathkumar_B_Resume.pdf';
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
 
         <div class="nav-actions">
           <a
-            href="/assets/Bharathkumar_B_Resume.pdf"
+            href={resumePdf}
             download="Bharathkumar_B_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"

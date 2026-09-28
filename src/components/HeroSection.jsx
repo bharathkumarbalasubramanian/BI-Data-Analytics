@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Github, Briefcase, MapPin, PieChart, RefreshCw } from 'lucide-react';
+import profileImg from '../../assets/profile.png';
 
 const HeroSection = () => {
   const [activeTab, setActiveTab] = useState('revenue');
@@ -53,7 +54,7 @@ const HeroSection = () => {
         <div class="hero-visual-card hero-profile-card">
           <div class="hero-profile-banner">
             <div className="profile-avatar-wrapper">
-              <img src="/assets/profile.png" alt="Bharathkumar B - BI Analyst" className="profile-photo-img" />
+              <img src={profileImg} alt="Bharathkumar B - BI Analyst" className="profile-photo-img" />
             </div>
             <div class="profile-info-content">
               <h3>Bharathkumar B</h3>
