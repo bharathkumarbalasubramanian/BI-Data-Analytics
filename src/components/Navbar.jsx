@@ -22,7 +22,7 @@ const Navbar = () => {
 
         <div class="nav-actions">
           <a
-            href="assets/Bharathkumar_B_Resume.pdf"
+            href="/assets/Bharathkumar_B_Resume.pdf"
             download="Bharathkumar_B_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"

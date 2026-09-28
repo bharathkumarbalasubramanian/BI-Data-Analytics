@@ -52,8 +52,8 @@ const HeroSection = () => {
         {/* Hero 3D Profile & Live Widget Card */}
         <div class="hero-visual-card hero-profile-card">
           <div class="hero-profile-banner">
-            <div class="profile-avatar-wrapper">
-              <img src="assets/profile.png" alt="Bharathkumar B - BI Analyst" class="profile-photo-img" />
+            <div className="profile-avatar-wrapper">
+              <img src="/assets/profile.png" alt="Bharathkumar B - BI Analyst" className="profile-photo-img" />
             </div>
             <div class="profile-info-content">
               <h3>Bharathkumar B</h3>
